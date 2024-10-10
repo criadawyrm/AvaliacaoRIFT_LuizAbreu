@@ -1,0 +1,56 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+@model Site.Models.ClientePFModel
+@using DTO;
+
+<div>
+    <div>
+        <a href="~/Inicio/Index" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Voltar</a>
+        <a href="~/ClientePF/Cadastro" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Novo Cadastro</a>
+    </div>
+    <br />
+    <form method="post" action="~/ClientePF/Index">
+        <label>CPF: </label><input class="CPF" type="text" name="CPF" value="" />
+        <label>Nome: </label><input type="text" name="Nome" value="" />
+        <label>RG: </label><input type="text" name="RG" value="" />
+        <button type="submit" class="btn btn-primary">Filtrar</button>
+    </form>
+    <div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <td>CPF</td>
+                    <td>Nome</td>
+                    <td>Telefone 1</td>
+                    <td>Telefone 2</td>
+                    <td>Email 1</td>
+                    <td>Email 2</td>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.ListaClientePF != null)
+                {
+                    foreach (ClientePF_DTO clientePF in Model.ListaClientePF)
+                    {
+                        <tr style="cursor: pointer;" onclick="script: Redirecionar('@Model.ObterURL()/ClientePF/Cadastro?id=@clientePF.IdClientePF')">
+                            <td>@clientePF.CPF</td>
+                            <td>@clientePF.Nome</td>
+                            <td>@clientePF.Telefone1</td>
+                            <td>@clientePF.Telefone2</td>
+                            <td>@clientePF.Email1</td>
+                            <td>@clientePF.Email2</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+    function Redirecionar(url) {
+        location.href = url;
+    }
+</script>

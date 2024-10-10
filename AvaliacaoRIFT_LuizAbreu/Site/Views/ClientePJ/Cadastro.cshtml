@@ -1,0 +1,38 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+@model Site.Models.ClientePJModel
+
+<form method="post" action="~/ClientePJ/Cadastro">
+    <div class="mb-3">
+        <label for="CNPJ" class="form-label">CNPJ</label>
+        <input type="text" class="form-control CNPJ" id="CNPJ" name="Model.CadastroClientePJ.CNPJ" value="@Model.CadastroClientePJ.CNPJ" required>
+    </div>
+    <div class="mb-3">
+        <label for="RazaoSocial" class="form-label">Razão Social</label>
+        <input type="text" class="form-control" id="RazaoSocial" name="Model.CadastroClientePJ.RazaoSocial" value="@Model.CadastroClientePJ.RazaoSocial" required>
+    </div>
+    <div class="mb-3">
+        <label for="NomeFantasia" class="form-label">Nome Fantasia</label>
+        <input type="text" class="form-control" id="NomeFantasia" name="Model.CadastroClientePJ.NomeFantasia" value="@Model.CadastroClientePJ.NomeFantasia">
+    </div>
+    <div class="mb-3">
+        <label for="Endereco" class="form-label">Endereco</label>
+        <input type="text" class="form-control" id="Endereco" name="Model.CadastroClientePJ.Endereco" value="@Model.CadastroClientePJ.Endereco">
+    </div>
+    <div class="mb-3">
+        <label for="Telefone1" class="form-label">Telefone1</label>
+        <input type="text" class="form-control Telefone" id="Telefone1" name="Model.CadastroClientePJ.Telefone1" value="@Model.CadastroClientePJ.Telefone1">
+    </div>
+    <div class="mb-3">
+        <label for="Telefone2" class="form-label">Telefone2</label>
+        <input type="text" class="form-control Telefone" id="Telefone2" name="Model.CadastroClientePJ.Telefone2" value="@Model.CadastroClientePJ.Telefone2">
+    </div>
+    <div class="mb-3">
+        <label for="Email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="Email" name="Model.CadastroClientePJ.Email" value="@Model.CadastroClientePJ.Email">
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+    <a href="~/ClientePF/Index" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Voltar</a>
+</form>

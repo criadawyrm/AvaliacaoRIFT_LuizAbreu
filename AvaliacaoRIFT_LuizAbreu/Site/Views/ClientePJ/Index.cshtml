@@ -1,0 +1,53 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+@model Site.Models.ClientePJModel
+
+<div>
+    <a href="~/Inicio/Index" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Voltar</a>
+    <a href="~/ClientePJ/Cadastro" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Novo Cadastro</a>
+</div>
+<br />
+<form method="post" action="~/ClientePJ/Index">
+    <label>CNPJ: </label><input class="CNPJ" type="text" name="CNPJ" value="" />
+    <label>Razão Social: </label><input type="text" name="RazaoSocial" value="" />
+    <label>Nome Fantasia: </label><input type="text" name="NomeFantasia" value="" />
+    <button type="submit" class="btn btn-primary">Filtrar</button>
+</form>
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <td>CNPJ</td>
+                <td>Razao Social</td>
+                <td>Nome Fantasia</td>
+                <td>Telefone 1</td>
+                <td>Telefone 2</td>
+                <td>Email</td>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.ListaClientePJ != null)
+            {
+                foreach (DTO.ClientePJ_DTO clientePJ in Model.ListaClientePJ)
+                {
+                    <tr style="cursor: pointer;" onclick="script: Redirecionar('@Model.ObterURL()/ClientePJ/Cadastro?id=@clientePJ.IdClientePJ')">
+                        <td>@clientePJ.CNPJ</td>
+                        <td>@clientePJ.RazaoSocial</td>
+                        <td>@clientePJ.NomeFantasia</td>
+                        <td>@clientePJ.Telefone1</td>
+                        <td>@clientePJ.Telefone2</td>
+                        <td>@clientePJ.Email</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function Redirecionar(url) {
+        location.href = url;
+    }
+</script>

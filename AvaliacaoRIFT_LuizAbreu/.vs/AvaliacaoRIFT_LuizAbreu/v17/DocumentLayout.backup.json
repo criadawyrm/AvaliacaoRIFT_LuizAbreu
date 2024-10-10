@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CdW\\Documents\\Projetos\\AvaliacaoRIFT_LuizAbreu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8162290-B479-4A21-9B7D-D9B23EDD8920}|Site\\Site.csproj|c:\\users\\cdw\\documents\\projetos\\avaliacaorift_luizabreu\\site\\views\\clientepj\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8162290-B479-4A21-9B7D-D9B23EDD8920}|Site\\Site.csproj|solutionrelative:site\\views\\clientepj\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8162290-B479-4A21-9B7D-D9B23EDD8920}|Site\\Site.csproj|c:\\users\\cdw\\documents\\projetos\\avaliacaorift_luizabreu\\site\\views\\clientepf\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8162290-B479-4A21-9B7D-D9B23EDD8920}|Site\\Site.csproj|solutionrelative:site\\views\\clientepf\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8162290-B479-4A21-9B7D-D9B23EDD8920}|Site\\Site.csproj|c:\\users\\cdw\\documents\\projetos\\avaliacaorift_luizabreu\\site\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8162290-B479-4A21-9B7D-D9B23EDD8920}|Site\\Site.csproj|solutionrelative:site\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8162290-B479-4A21-9B7D-D9B23EDD8920}|Site\\Site.csproj|c:\\users\\cdw\\documents\\projetos\\avaliacaorift_luizabreu\\site\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8162290-B479-4A21-9B7D-D9B23EDD8920}|Site\\Site.csproj|solutionrelative:site\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CdW\\Documents\\Projetos\\AvaliacaoRIFT_LuizAbreu\\Site\\Views\\ClientePJ\\Index.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\ClientePJ\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CdW\\Documents\\Projetos\\AvaliacaoRIFT_LuizAbreu\\Site\\Views\\ClientePJ\\Index.cshtml",
+              "RelativeToolTip": "Site\\Views\\ClientePJ\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T20:26:37.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CdW\\Documents\\Projetos\\AvaliacaoRIFT_LuizAbreu\\Site\\Views\\ClientePF\\Index.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\ClientePF\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CdW\\Documents\\Projetos\\AvaliacaoRIFT_LuizAbreu\\Site\\Views\\ClientePF\\Index.cshtml",
+              "RelativeToolTip": "Site\\Views\\ClientePF\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T20:24:11.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LayoutPage1.cshtml",
+              "DocumentMoniker": "C:\\Users\\CdW\\Documents\\Projetos\\AvaliacaoRIFT_LuizAbreu\\Site\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ToolTip": "C:\\Users\\CdW\\Documents\\Projetos\\AvaliacaoRIFT_LuizAbreu\\Site\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeToolTip": "Site\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T20:23:51.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CdW\\Documents\\Projetos\\AvaliacaoRIFT_LuizAbreu\\Site\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Site\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CdW\\Documents\\Projetos\\AvaliacaoRIFT_LuizAbreu\\Site\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Site\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T20:20:09.295Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

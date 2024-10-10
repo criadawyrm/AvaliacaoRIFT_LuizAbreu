@@ -1,0 +1,40 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<style>
+    .login {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+</style>
+
+<form method="post" action="~/Login/Index">
+    <div class="login">
+        <table>
+            <tr>
+                <td>
+                    <label>Usuário:</label>
+                </td>
+                <td>
+                    <input type="text" name="Usuario" id="Usuario" value="" tabindex="1" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Senha:</label>
+                </td>
+                <td>
+                    <input type="password" name="Senha" id="Senha" value="" tabindex="2" required />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    <input class="btn btn-primary" type="submit" name="Entrar" tabindex="3" value="Entrar" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</form>

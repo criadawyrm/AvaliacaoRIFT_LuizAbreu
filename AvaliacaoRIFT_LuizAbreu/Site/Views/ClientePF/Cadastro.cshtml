@@ -1,0 +1,50 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+@model Site.Models.ClientePFModel
+
+<form method="post" action="~/ClientePF/Cadastro">
+    <div class="mb-3">
+        <label for="CPF" class="form-label">CPF</label>
+        <input type="text" class="form-control CPF" id="CPF" name="Model.CadastroClientePF.CPF" value="@Model.CadastroClientePF.CPF" required>
+    </div>
+    <div class="mb-3">
+        <label for="Nome" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="Nome" name="Model.CadastroClientePF.Nome" value="@Model.CadastroClientePF.Nome" required>
+    </div>
+    <div class="mb-3">
+        <label for="Sexo" class="form-label">Sexo</label>
+        <input type="text" class="form-control" id="Sexo" name="Model.CadastroClientePF.Sexo" value="@Model.CadastroClientePF.Sexo">
+    </div>
+    <div class="mb-3">
+        <label for="DataNascimento" class="form-label">Data Nascimento</label>
+        <input type="text" class="form-control DataNascimento" id="DataNascimento" name="Model.CadastroClientePF.DataNascimento" value="@Model.CadastroClientePF.DataNascimento">
+    </div>
+    <div class="mb-3">
+        <label for="RG" class="form-label">RG</label>
+        <input type="text" class="form-control" id="RG" name="Model.CadastroClientePF.RG" value="@Model.CadastroClientePF.RG">
+    </div>
+    <div class="mb-3">
+        <label for="Endereco" class="form-label">Endereco</label>
+        <input type="text" class="form-control" id="Endereco" name="Model.CadastroClientePF.Endereco" value="@Model.CadastroClientePF.Endereco">
+    </div>
+    <div class="mb-3">
+        <label for="Telefone1" class="form-label">Telefone1</label>
+        <input type="text" class="form-control Telefone" id="Telefone1" name="Model.CadastroClientePF.Telefone1" value="@Model.CadastroClientePF.Telefone1">
+    </div>
+    <div class="mb-3">
+        <label for="Telefone2" class="form-label">Telefone2</label>
+        <input type="text" class="form-control Telefone" id="Telefone2" name="Model.CadastroClientePF.Telefone2" value="@Model.CadastroClientePF.Telefone2">
+    </div>
+    <div class="mb-3">
+        <label for="Email1" class="form-label">Email1</label>
+        <input type="email" class="form-control" id="Email1" name="Model.CadastroClientePF.Email1" value="@Model.CadastroClientePF.Email1">
+    </div>
+    <div class="mb-3">
+        <label for="Email2" class="form-label">Email2</label>
+        <input type="email" class="form-control" id="Email2" name="Model.CadastroClientePF.Email2" value="@Model.CadastroClientePF.Email2">
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+    <a href="~/ClientePF/Index" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Voltar</a>
+</form>

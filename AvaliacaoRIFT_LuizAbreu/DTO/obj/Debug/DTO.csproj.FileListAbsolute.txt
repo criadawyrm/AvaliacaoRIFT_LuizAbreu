@@ -1,0 +1,6 @@
+C:\Users\CdW\Documents\Projetos\AvaliacaoRIFT_LuizAbreu\DTO\bin\Debug\DTO.dll
+C:\Users\CdW\Documents\Projetos\AvaliacaoRIFT_LuizAbreu\DTO\bin\Debug\DTO.pdb
+C:\Users\CdW\Documents\Projetos\AvaliacaoRIFT_LuizAbreu\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\CdW\Documents\Projetos\AvaliacaoRIFT_LuizAbreu\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\CdW\Documents\Projetos\AvaliacaoRIFT_LuizAbreu\DTO\obj\Debug\DTO.dll
+C:\Users\CdW\Documents\Projetos\AvaliacaoRIFT_LuizAbreu\DTO\obj\Debug\DTO.pdb
